@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: azure;
+}
+.container{
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+   height: 350px;
+    width: 450px;
+    box-shadow: 0px  9px 9px gray;
+    flex-direction: row;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+.email input{
+    height: 45px;
+    width: 320px;
+    border-radius: 6px 6px;
+    box-shadow: 0px 1px 1px;
+    border-color: aliceblue;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.password input{
+    height: 45px;
+    width: 320px;
+    border-radius: 6px;
+     box-shadow: 0px 1px 1px;
+    border-color: aliceblue;
+    font-size: 20px;
+    padding: 5px;
+}
+input:hover{
+    border-color: blue;
+    transition: 0.5s ease;
+    outline: none;
+
+}
+.login{
+    width: 340px;
+    height: 48px;
+    background-color: rgba(8, 134, 252, 0.858);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border-color: aliceblue;
+
+}
+a{
+    text-decoration: none;
+}
+.accountt{
+    padding: 40px;
+    
+
+}
+.accountt button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(51, 162, 51);
+    font-size: 15px;
+    color:white;
+    font-weight: 600;
+     border-radius: 6px;
+     box-shadow: 0px 1px 1px;
+    border-color: aliceblue;
+}
+@media  screen and (max-width:250px) {
+    body{
+        background-color: lightcoral;
+        padding: 10px ;
+    
+    }
+    .container{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 50px;
+        box-shadow: 0px 5px 10px gray;
+    }
+    .email input, .password input{
+        width: 100%;
+        font-size: 13px;
+       
+        
+    }
+    .login{
+        width: 100%;
+        font-size: 16px;
+        height: 45px;
+    }
+    .accountt {
+        padding: 15px;
+    }
+    .accountt button{
+        width: 100%;
+        font-size: 14px;
+        height: 45px;
+    }
+}

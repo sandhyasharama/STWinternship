@@ -1,0 +1,23 @@
+.grid-template{
+    display: grid;
+    color: black;
+    background-color: aqua;
+}
+.grid-template .header{grid-area: header;}
+.grid-template .nav{grid-area: nav;
+}
+.grid-template .main{grid-area: main;}
+.grid-template .middle{grid-area: middle;}
+
+
+
+
+
+
+
+.grid-template{
+    grid-template-areas: 
+   " header header header"
+   "nav main middle";
+   grid-template-columns: 1fr 1fr 1fr;
+}
